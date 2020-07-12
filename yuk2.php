@@ -6,7 +6,7 @@ ulang:
 echo color("nevy"," ===================================\n");
 echo color("yellow"," Klaim Voucher 20+10 V.2\n");
 echo color("green"," GEMSEN SCRIPT GOFOOD\n");
-echo color("yellow"," cara menulis nomor pake 62xxxxxxxxxx \n");
+echo color("yellow"," Cara menulis nomor pake 62xxxxxxxxx \n");
 echo color("blue"," Time    : ".date('[d-m-Y] [H:i:s]')."	\n");
 echo color("nevy"," ===================================\n");
         $nama = nama();
@@ -83,7 +83,7 @@ echo color("nevy"," ===================================\n");
         echo "\n".color("white"," Please wait");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
-        sleep(0);
+        sleep(5);
         }
         $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD0607"}');
         $message = fetch_value($code1,'"message":"','"');
