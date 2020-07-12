@@ -1,3 +1,4 @@
+<?php
 date_default_timezone_set('Asia/Jakarta');
 include "function2.php";
 ulang:
