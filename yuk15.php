@@ -8,12 +8,12 @@ echo color("blue"," Time    : ".date('[d-m-Y] [H:i:s]')."	\n");
 echo color("nevy"," ===================================\n");
 echo color("yellow","Token: ");
 $token = trim(fgets(STDIN));
-echo "\n".color("pink","Claim?: y/n ");
+echo "\n".color("purple","Claim?: y/n ");
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
-        echo color("white","▬▬▬▬▬▬▬▬▬▬▬▬VOUCHER 15+10+5▬▬▬▬▬▬▬▬▬▬▬▬");
-        echo "\n".color("white","Claim A..");
-        echo "\n".color("white","Please wait");
+        echo color("green","▬▬▬▬▬▬▬▬▬▬▬▬VOUCHER 15+10+5▬▬▬▬▬▬▬▬▬▬▬▬");
+        echo "\n".color("nevy","Claim A..");
+        echo "\n".color("yellow","Please wait");
         for($a=1;$a<=3;$a++){
         echo color("white",".");
         sleep(1);
